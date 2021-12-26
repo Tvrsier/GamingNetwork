@@ -4,7 +4,6 @@ from disnake import Embed, ApplicationCommandInteraction, Guild, User
 from datetime import datetime
 from ..db import db
 from ..bot.askData import *
-
 class General(Cog):
     def __init__(self, bot):
         self.bot = bot
