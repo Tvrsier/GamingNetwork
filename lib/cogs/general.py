@@ -11,6 +11,7 @@ class General(Cog):
     @slash_command(name="allow_save_data", description="Permetti al bot di salvare i tuoi dati",
                    guild_ids=[865691556736008213])
     async def allow_save_data(self, ctx: ApplicationCommandInteraction):
+        # Improved askData
         user = db.record("SELECT * FROM DiscordUser WHERE UserID IS ?", ctx.author.id)
         if user is not None:
             if user[-1] == 0 or user[-1] is None:

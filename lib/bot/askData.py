@@ -3,7 +3,7 @@ from lib.bot import GamingNetwork
 from disnake import Member, DMChannel, ApplicationCommandInteraction, TextChannel
 import asyncio
 
-
+#Improved
 async def askDataToNewMember(user: Member, ctx: ApplicationCommandInteraction = None):
     if ctx is None:
         channel: DMChannel = await user.create_dm()
