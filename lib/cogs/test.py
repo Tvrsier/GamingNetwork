@@ -3,7 +3,7 @@ from disnake import Embed, ApplicationCommandInteraction, Member
 
 from datetime import datetime
 from ..db import db
-from lib.bot.askData import askDataToJoinedMember
+from lib.bot.askData import askDataToNewMember
 
 
 class Test(Cog):
@@ -32,10 +32,7 @@ class Test(Cog):
     async def on_member_join(self, user: Member):
         is_recorded = db.record("SELECT * FROM DiscordUser WHERE UserID IS ?", user.id)
         if not is_recorded:
-            await askDataToJoinedMember(user)
-        else:
-            # TODO Welcome message
-            return
+            await askDataToNewMember(user)
 
     @Cog.listener()
     async def on_ready(self):

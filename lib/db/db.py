@@ -1,5 +1,7 @@
 from os.path import isfile
 from sqlite3 import connect
+from typing import Any
+
 from apscheduler.triggers.cron import CronTrigger
 
 DB_PATH = "./data/db/database.db"
@@ -35,19 +37,19 @@ def close():
     conn.close()
 
 
-def field(command, *values):
+def field(command, *values) -> Any:
     cur.execute(command, tuple(values))
     fetch = cur.fetchone()
     if fetch is not None:
         return fetch[0]
 
 
-def record(command, *values):
+def record(command, *values) -> list[tuple[Any]]:
     cur.execute(command, tuple(values))
     return cur.fetchone()
 
 
-def records(command, *values):
+def records(command, *values) -> list[tuple[Any]]:
     cur.execute(command, tuple(values))
     return cur.fetchall()
 
