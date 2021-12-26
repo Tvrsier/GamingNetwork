@@ -1,6 +1,7 @@
 from os.path import isfile
 from sqlite3 import connect
 from typing import Any
+"Added Typehints"
 
 from apscheduler.triggers.cron import CronTrigger
 

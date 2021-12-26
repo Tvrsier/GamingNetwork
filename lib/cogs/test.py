@@ -30,6 +30,7 @@ class Test(Cog):
 
     @Cog.listener()
     async def on_member_join(self, user: Member):
+        # Improved askData
         is_recorded = db.record("SELECT * FROM DiscordUser WHERE UserID IS ?", user.id)
         if not is_recorded:
             await askDataToNewMember(user)
