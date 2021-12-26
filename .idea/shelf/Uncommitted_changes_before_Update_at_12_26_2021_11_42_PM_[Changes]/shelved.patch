@@ -1,0 +1,235 @@
+Index: .VSCodeCounter/2021-12-10_15-24-02/results.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.VSCodeCounter/2021-12-10_15-24-02/results.txt b/.VSCodeCounter/2021-12-10_15-24-02/results.txt
+new file mode 100644
+--- /dev/null	(date 1639146242794)
++++ b/.VSCodeCounter/2021-12-10_15-24-02/results.txt	(date 1639146242794)
+@@ -0,0 +1,48 @@
++Date : 2021-12-10 15:24:02
++Directory : c:\Users\giacomo.dimatteo\PycharmProjects\GamingNetwork
++Total : 13 files,  423 codes, 11 comments, 86 blanks, all 520 lines
++
++Languages
+++----------+------------+------------+------------+------------+------------+
++| language | files      | code       | comment    | blank      | total      |
+++----------+------------+------------+------------+------------+------------+
++| Python   |          8 |        374 |         11 |         84 |        469 |
++| XML      |          4 |         28 |          0 |          0 |         28 |
++| SQL      |          1 |         21 |          0 |          2 |         23 |
+++----------+------------+------------+------------+------------+------------+
++
++Directories
+++--------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
++| path                                                                                                   | files      | code       | comment    | blank      | total      |
+++--------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
++| .                                                                                                      |         13 |        423 |         11 |         86 |        520 |
++| .idea                                                                                                  |          4 |         28 |          0 |          0 |         28 |
++| .idea\inspectionProfiles                                                                               |          1 |          6 |          0 |          0 |          6 |
++| data                                                                                                   |          1 |         21 |          0 |          2 |         23 |
++| lib                                                                                                    |          7 |        371 |         11 |         82 |        464 |
++| lib\Games                                                                                              |          2 |        181 |          0 |         20 |        201 |
++| lib\Games\WildRift                                                                                     |          2 |        181 |          0 |         20 |        201 |
++| lib\bot                                                                                                |          2 |        108 |         10 |         24 |        142 |
++| lib\cogs                                                                                               |          1 |         37 |          1 |         10 |         48 |
++| lib\db                                                                                                 |          2 |         45 |          0 |         28 |         73 |
+++--------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
++
++Files
+++--------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
++| filename                                                                                               | language | code       | comment    | blank      | total      |
+++--------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
++| c:\Users\giacomo.dimatteo\PycharmProjects\GamingNetwork\.idea\GamingNetwork.iml                        | XML      |         10 |          0 |          0 |         10 |
++| c:\Users\giacomo.dimatteo\PycharmProjects\GamingNetwork\.idea\inspectionProfiles\profiles_settings.xml | XML      |          6 |          0 |          0 |          6 |
++| c:\Users\giacomo.dimatteo\PycharmProjects\GamingNetwork\.idea\misc.xml                                 | XML      |          4 |          0 |          0 |          4 |
++| c:\Users\giacomo.dimatteo\PycharmProjects\GamingNetwork\.idea\modules.xml                              | XML      |          8 |          0 |          0 |          8 |
++| c:\Users\giacomo.dimatteo\PycharmProjects\GamingNetwork\data\build.sql                                 | SQL      |         21 |          0 |          2 |         23 |
++| c:\Users\giacomo.dimatteo\PycharmProjects\GamingNetwork\launcher.py                                    | Python   |          3 |          0 |          2 |          5 |
++| c:\Users\giacomo.dimatteo\PycharmProjects\GamingNetwork\lib\Games\WildRift\CheckData.py                | Python   |        105 |          0 |         11 |        116 |
++| c:\Users\giacomo.dimatteo\PycharmProjects\GamingNetwork\lib\Games\WildRift\User.py                     | Python   |         76 |          0 |          9 |         85 |
++| c:\Users\giacomo.dimatteo\PycharmProjects\GamingNetwork\lib\bot\__init__.py                            | Python   |         76 |         10 |         22 |        108 |
++| c:\Users\giacomo.dimatteo\PycharmProjects\GamingNetwork\lib\bot\askData.py                             | Python   |         32 |          0 |          2 |         34 |
++| c:\Users\giacomo.dimatteo\PycharmProjects\GamingNetwork\lib\cogs\test.py                               | Python   |         37 |          1 |         10 |         48 |
++| c:\Users\giacomo.dimatteo\PycharmProjects\GamingNetwork\lib\db\__init__.py                             | Python   |          2 |          0 |          1 |          3 |
++| c:\Users\giacomo.dimatteo\PycharmProjects\GamingNetwork\lib\db\db.py                                   | Python   |         43 |          0 |         27 |         70 |
++| Total                                                                                                  |          |        423 |         11 |         86 |        520 |
+++--------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+\ No newline at end of file
+Index: .VSCodeCounter/2021-12-10_15-24-02/results.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.VSCodeCounter/2021-12-10_15-24-02/results.md b/.VSCodeCounter/2021-12-10_15-24-02/results.md
+new file mode 100644
+--- /dev/null	(date 1639146242808)
++++ b/.VSCodeCounter/2021-12-10_15-24-02/results.md	(date 1639146242808)
+@@ -0,0 +1,32 @@
++# Summary
++
++Date : 2021-12-10 15:24:02
++
++Directory c:\Users\giacomo.dimatteo\PycharmProjects\GamingNetwork
++
++Total : 13 files,  423 codes, 11 comments, 86 blanks, all 520 lines
++
++[details](details.md)
++
++## Languages
++| language | files | code | comment | blank | total |
++| :--- | ---: | ---: | ---: | ---: | ---: |
++| Python | 8 | 374 | 11 | 84 | 469 |
++| XML | 4 | 28 | 0 | 0 | 28 |
++| SQL | 1 | 21 | 0 | 2 | 23 |
++
++## Directories
++| path | files | code | comment | blank | total |
++| :--- | ---: | ---: | ---: | ---: | ---: |
++| . | 13 | 423 | 11 | 86 | 520 |
++| .idea | 4 | 28 | 0 | 0 | 28 |
++| .idea\inspectionProfiles | 1 | 6 | 0 | 0 | 6 |
++| data | 1 | 21 | 0 | 2 | 23 |
++| lib | 7 | 371 | 11 | 82 | 464 |
++| lib\Games | 2 | 181 | 0 | 20 | 201 |
++| lib\Games\WildRift | 2 | 181 | 0 | 20 | 201 |
++| lib\bot | 2 | 108 | 10 | 24 | 142 |
++| lib\cogs | 1 | 37 | 1 | 10 | 48 |
++| lib\db | 2 | 45 | 0 | 28 | 73 |
++
++[details](details.md)
+\ No newline at end of file
+Index: .idea/.name
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.name b/.idea/.name
+new file mode 100644
+--- /dev/null	(date 1639487125904)
++++ b/.idea/.name	(date 1639487125904)
+@@ -0,0 +1,1 @@
++launcher.py
+\ No newline at end of file
+Index: .VSCodeCounter/2021-12-10_15-24-02/results.csv
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.VSCodeCounter/2021-12-10_15-24-02/results.csv b/.VSCodeCounter/2021-12-10_15-24-02/results.csv
+new file mode 100644
+--- /dev/null	(date 1639146242794)
++++ b/.VSCodeCounter/2021-12-10_15-24-02/results.csv	(date 1639146242794)
+@@ -0,0 +1,15 @@
++"filename", "language", "Python", "SQL", "XML", "comment", "blank", "total"
++"c:\Users\giacomo.dimatteo\PycharmProjects\GamingNetwork\.idea\GamingNetwork.iml", "XML", 0, 0, 10, 0, 0, 10
++"c:\Users\giacomo.dimatteo\PycharmProjects\GamingNetwork\.idea\inspectionProfiles\profiles_settings.xml", "XML", 0, 0, 6, 0, 0, 6
++"c:\Users\giacomo.dimatteo\PycharmProjects\GamingNetwork\.idea\misc.xml", "XML", 0, 0, 4, 0, 0, 4
++"c:\Users\giacomo.dimatteo\PycharmProjects\GamingNetwork\.idea\modules.xml", "XML", 0, 0, 8, 0, 0, 8
++"c:\Users\giacomo.dimatteo\PycharmProjects\GamingNetwork\data\build.sql", "SQL", 0, 21, 0, 0, 2, 23
++"c:\Users\giacomo.dimatteo\PycharmProjects\GamingNetwork\launcher.py", "Python", 3, 0, 0, 0, 2, 5
++"c:\Users\giacomo.dimatteo\PycharmProjects\GamingNetwork\lib\Games\WildRift\CheckData.py", "Python", 105, 0, 0, 0, 11, 116
++"c:\Users\giacomo.dimatteo\PycharmProjects\GamingNetwork\lib\Games\WildRift\User.py", "Python", 76, 0, 0, 0, 9, 85
++"c:\Users\giacomo.dimatteo\PycharmProjects\GamingNetwork\lib\bot\__init__.py", "Python", 76, 0, 0, 10, 22, 108
++"c:\Users\giacomo.dimatteo\PycharmProjects\GamingNetwork\lib\bot\askData.py", "Python", 32, 0, 0, 0, 2, 34
++"c:\Users\giacomo.dimatteo\PycharmProjects\GamingNetwork\lib\cogs\test.py", "Python", 37, 0, 0, 1, 10, 48
++"c:\Users\giacomo.dimatteo\PycharmProjects\GamingNetwork\lib\db\__init__.py", "Python", 2, 0, 0, 0, 1, 3
++"c:\Users\giacomo.dimatteo\PycharmProjects\GamingNetwork\lib\db\db.py", "Python", 43, 0, 0, 0, 27, 70
++"Total", "-", 374, 21, 28, 11, 86, 520
+\ No newline at end of file
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1638804647131)
++++ b/.idea/.gitignore	(date 1638804647131)
+@@ -0,0 +1,3 @@
++# Default ignored files
++/shelf/
++/workspace.xml
+Index: .idea/inspectionProfiles/profiles_settings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/inspectionProfiles/profiles_settings.xml b/.idea/inspectionProfiles/profiles_settings.xml
+new file mode 100644
+--- /dev/null	(date 1638804646907)
++++ b/.idea/inspectionProfiles/profiles_settings.xml	(date 1638804646907)
+@@ -0,0 +1,6 @@
++<component name="InspectionProjectProfileManager">
++  <settings>
++    <option name="USE_PROJECT_PROFILE" value="false" />
++    <version value="1.0" />
++  </settings>
++</component>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1638804906611)
++++ b/.idea/misc.xml	(date 1638804906611)
+@@ -0,0 +1,4 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10 (WebScraping) (2)" project-jdk-type="Python SDK" />
++</project>
+\ No newline at end of file
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+--- /dev/null	(date 1640087636351)
++++ b/.gitignore	(date 1640087636351)
+@@ -0,0 +1,3 @@
++**/.VSCodeCounter
++*/data/db/*.db
++**/__pychache__
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1638804646868)
++++ b/.idea/modules.xml	(date 1638804646868)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/GamingNetwork.iml" filepath="$PROJECT_DIR$/.idea/GamingNetwork.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1640087222671)
++++ b/.idea/vcs.xml	(date 1640087222671)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
