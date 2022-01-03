@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea0ed1b5-93bd-4fc9-8f51-d131c51c54fc" name="Changes" comment="Improving askData script">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/bot/UserChecks/Checks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/cogs/ErrorHandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/cogs/WildRift.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bot/AdminChecks/Checks.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bot/AdminChecks/Checks.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/bot/askData.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bot/askData.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/cogs/general.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cogs/general.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/cogs/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cogs/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/db/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/db/db.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +27,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -44,10 +49,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/launcher.py" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -116,7 +123,21 @@
       <option name="project" value="LOCAL" />
       <updated>1640558962973</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Improving askData script">
+      <created>1640559036575</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1640559036575</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Improving askData script">
+      <created>1640559159982</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1640559159983</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,9 +165,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="GamingNetwork_Initialization" />
     <MESSAGE value="Improving askData script" />
     <option name="LAST_COMMIT_MESSAGE" value="Improving askData script" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

@@ -10,6 +10,7 @@ def checkOwner():
         return True if status == "Owner" else False
     return check(predicate)
 
+
 def checkAdmin():
     def predicate(ctx: ApplicationCommandInteraction):
         status = db.field("SELECT Status FROM DiscordUser WHERE UserID IS ?", ctx.author.id)
