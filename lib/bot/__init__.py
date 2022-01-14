@@ -1,12 +1,13 @@
 import asyncio
-from apscheduler.schedulers.asyncio import AsyncIOScheduler
 import os
 from glob import glob
 
+from apscheduler.schedulers.asyncio import AsyncIOScheduler
+from disnake import Intents, Guild, Activity, ActivityType, Thread
 from disnake.abc import GuildChannel, PrivateChannel
 from disnake.ext.commands import *
-from disnake import Intents, Guild, Activity, ActivityType, Thread
 
+from .UserChecks.Checks import checkWR_Found, checkWR_NotFound
 from ..db import db
 
 prefix = "&"
@@ -38,6 +39,7 @@ class GamingNetwork(Bot):
         super().__init__(command_prefix=self.prefix, owner_ids=OWNER_IDS, intents=Intents.all())
         db.autosave(self.scheduler)
 
+
     def run(self, version):
         self.version = version
         print("Running setup...")
@@ -53,8 +55,8 @@ class GamingNetwork(Bot):
                 self.load_extension(f"lib.cogs.{cog}")
             except NoEntryPointError:
                 print(f"    failed to load {cog}\nNo setup found")
-            except ExtensionFailed:
-                print(f"    failed to load {cog}\nThe extension or its setup had an execution error")
+            # except ExtensionFailed:
+            # print(f"    failed to load {cog}\nThe extension or its setup had an execution error")
             else:
                 print(f"    {cog} loaded")
 

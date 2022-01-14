@@ -4,15 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea0ed1b5-93bd-4fc9-8f51-d131c51c54fc" name="Changes" comment="Improving askData script">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/bot/UserChecks/Checks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/cogs/ErrorHandler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/cogs/WildRift.py" afterDir="false" />
+    <list default="true" id="ea0ed1b5-93bd-4fc9-8f51-d131c51c54fc" name="Changes" comment="Initialazing Wild Rift script">
+      <change afterPath="$PROJECT_DIR$/data/pickle/WR/BlvckTvrsier2852.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/GamingNetwork.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GamingNetwork.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/bot/AdminChecks/Checks.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bot/AdminChecks/Checks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/bot/askData.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bot/askData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/db/database.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/database.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Games/WildRift/CheckData.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Games/WildRift/CheckData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Games/WildRift/User.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Games/WildRift/User.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bot/UserChecks/Checks.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bot/UserChecks/Checks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bot/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bot/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cogs/ErrorHandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cogs/ErrorHandler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cogs/WildRift.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cogs/WildRift.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,11 +55,13 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/launcher.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/data/pickle/WR" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\giacomo.dimatteo\PycharmProjects\GamingNetwork\data\pickle\WR" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\giacomo.dimatteo\PycharmProjects\GamingNetwork\lib\bot" />
       <recent name="C:\Users\giacomo.dimatteo\PycharmProjects\GamingNetwork\data\db" />
@@ -64,7 +69,6 @@
   </component>
   <component name="RunManager">
     <configuration name="GamingNetwork" type="PythonConfigurationType" factoryName="Python">
-      <module name="GamingNetwork" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -76,6 +80,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/launcher.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -137,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640559159983</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Initialazing Wild Rift script">
+      <created>1641205660329</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1641205660329</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,7 +163,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="HEAD" />
                       </list>
                     </value>
                   </entry>
@@ -170,7 +182,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="GamingNetwork_Initialization" />
     <MESSAGE value="Improving askData script" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improving askData script" />
+    <MESSAGE value="Initialazing Wild Rift script" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initialazing Wild Rift script" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

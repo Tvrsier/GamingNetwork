@@ -30,11 +30,11 @@ champList = [
     "Jayce",
     "Jhin",
     "Jinx",
-    "Kai'Sa",
+    'Khai\'Sa',
     "Katarina",
     "Kayle",
     "Kennen",
-    "Kha'Zix",
+    'Kha\'Zix',
     "Lee Sin",
     "Leona",
     "Lucian",
@@ -89,10 +89,10 @@ rankList = [
 
 def checkChamps(champs: list|str) -> bool:
     if type(champs) == list:
-        success = True
+        success = False
         for champ in champs:
-            if champ not in champList:
-                success = False
+            if champ in champList:
+                success = True
         return True if success else False
     if type(champs) == str:
         return True if champs in champList else False
@@ -100,10 +100,10 @@ def checkChamps(champs: list|str) -> bool:
 
 def checkRoles(roles: list|str) -> bool:
     if type(roles) == list:
-        success = True
+        success = False
         for role in roles:
-            if role not in roleList:
-                success = False
+            if role in roleList:
+                success = True
         return True if success else False
     else:
         return True if roles in roleList else False
